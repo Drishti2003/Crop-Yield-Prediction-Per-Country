@@ -16,27 +16,27 @@
     <form action="/predict" method="post">
     <div class="form-group">
         <label for="Year">Year</label>
-        <input type="number" class="form-control" name="Year" step="any" value="1990">
+        <input type="number" class="form-control" name="Year" step="any" placeholder="Enter year (e.g., 1990)">
     </div>
     <div class="form-group">
         <label for="average_rain_fall_mm_per_year">average_rain_fall_mm_per_year</label>
-        <input type="number" class="form-control" name="average_rain_fall_mm_per_year" step="any" value="1485.0">
+        <input type="number" class="form-control" name="average_rain_fall_mm_per_year" step="any" placeholder="Enter average rainfall (e.g., 1485.0)">
     </div>
     <div class="form-group">
         <label for="pesticides_tonnes">pesticides_tonnes</label>
-        <input type="number" class="form-control" name="pesticides_tonnes" step="any" value="121.0" >
+        <input type="number" class="form-control" name="pesticides_tonnes" step="any" placeholder="Enter pesticides used (e.g., 121.0)" >
     </div>
     <div class="form-group">
         <label for="avg_temp">avg_temp</label>
-        <input type="number" class="form-control" name="avg_temp" step="any" value="16.37">
+        <input type="number" class="form-control" name="avg_temp" step="any" placeholder="Enter average temperature (e.g., 16.37)">
     </div>
     <div class="form-group">
         <label for="Area">Area</label>
-        <input type="text" class="form-control" name="Area" value="Albania" >
+        <input type="text" class="form-control" name="Area"  placeholder="Enter area (e.g., Albania)" >
     </div>
     <div class="form-group">
         <label for="Item">Item</label>
-        <input type="text" class="form-control" name="Item" value="Maize" >
+        <input type="text" class="form-control" name="Item" placeholder="Enter crop (e.g., Maize)" >
     </div>
     <button type="submit" class="btn btn-danger btn-lg mt-2 btn-block">Predict</button>
 </form>
